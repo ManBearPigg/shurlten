@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shurlten</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
+</head>
+<body>
+  <h1>Shurlten</h1>
+  <form id="shortenForm">
+    <label for="url">Enter URL:</label>
+    <input type="text" id="url" name="url" required>
+    <button type="submit">Shorten</button>
+  </form>
+  <p id="result"></p>
+  
+  <div id="mappings">
+    <h2>Saved URLs</h2>
+    <ul id="mappingList"></ul>
+  </div>
+
+  <script src="js/mappings.js"></script> <!-- Link to the external JavaScript file -->
+</body>
+</html>
