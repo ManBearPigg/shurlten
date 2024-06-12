@@ -37,7 +37,7 @@ This should be more than enough unique URL extensions for personal use, while ma
 
 `node index.js` 
 
-*or* to keep it running
+*or* to keep it running, put this in your .bashrc
 
 `nohup node index.js &`
 
