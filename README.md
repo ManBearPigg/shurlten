@@ -1,5 +1,7 @@
 # Shurlten
 
+![Example Image](docs/example_image.png)
+
 A self-hosted URL shortener web app.
 
 Why? I don't trust the lifetimes of URLs that I might store with URL shortening services. Years from now I might (probably) find that those shortened URLs no longer exist. 
